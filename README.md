@@ -4,24 +4,6 @@ I started this challenge to pratice CSS as I'm a beginner : not  confident in we
 
 This is my solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
 
-## Table of contents
-
-- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshots](#screenshots)
-      - [Desktop preview](#desktop-preview)
-      - [Mobile preview](#mobile-preview)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-
-
 ## Overview
 
 ### The challenge
@@ -39,9 +21,7 @@ Users should be able to:
 
 #### Mobile preview
 
-For the moment, I only did the desktop design.
-
-Mobile will come later...
+![my solution mobile preview](./my-screenshots/mobile-preview.jpg)
 
 ### Links
 
@@ -53,8 +33,7 @@ Mobile will come later...
 ### Built with
 
 - Tried to use semantic HTML5 markup
-- CSS
-- Flexbox
+- CSS (Flexbox)
 
 ### What I learned
 
