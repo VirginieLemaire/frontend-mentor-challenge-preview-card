@@ -1,11 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: hsl(233, 47%, 7%);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: 15px;
+    height: 100vh;
 }
 
 span {
@@ -22,7 +22,7 @@ p {
 }
 
 /* CARD CONTAINER */
-.main {
+.container{
     display: flex;
     flex-wrap: wrap;
     width: 1080px;
@@ -30,11 +30,10 @@ p {
     margin: 10rem auto 3rem;
 }
 /* LEFT SIDE */
-.main--left {
+.text-part {
     width: 50%;
     background-color: hsl(244, 38%, 16%);
     text-align: left;
-    box-sizing: border-box;
     border-radius: 0.5rem 0 0 0.5rem;
     padding: 4rem 7rem 4rem 4rem;
     display: flex;
@@ -42,7 +41,7 @@ p {
     flex-direction: column;
 }
 
-.main--left .heading, .paragraph, .stats {
+.text-part header, main, .stats {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -54,14 +53,11 @@ h1 {
     font-size: xx-large;
 }
 
-.paragraph {
-    /* flex: 1; */
-    font-family: Lexend Deca;
+main {
     color: hsla(0, 0%, 100%, 0.75);
 }
 
 .stats {
-    /* flex: 1; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -81,9 +77,11 @@ article p {
 }
 
 /* RIGHT SIDE */
-.main--right {
+.img-part {
     width: 50%;
-    background-image: linear-gradient(rgba(162, 86, 208, 0.6), rgba(172, 96, 222, 0.6)), url(../images/image-header-desktop.jpg);
+    background-image: 
+        linear-gradient(rgba(162, 86, 208, 0.6), rgba(172, 96, 222, 0.6)), 
+        url(../images/image-header-desktop.jpg);
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
@@ -91,9 +89,54 @@ article p {
 .attribution { 
     font-size: 11px; 
     text-align: center;
+    padding-top: 0.5rem;
+    width: 100%;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
+/* RESPONSIVE WEB */
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width : 672px) {
+    .container{
+        margin: auto 1.5rem;
+        width: auto;
+        height: 80%;
+        align-content: center;
+    }
+    .img-part {
+        order : -1;
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-size: cover;
+        height: 30%;
+    }
+    .text-part {
+        width: 100%;
+        border-radius: 0 0 0.5rem 0.5rem;
+        padding: 1.5rem;
+        text-align: center;
+        height: 60%;
+    }
+    h1 {
+        font-size: 170%;
+    }
+    h2 {
+        margin-top: 1rem;
+        font-size: large;
+    }
+    .text-part header, main, .stats {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: auto;
+    }
+    .stats {
+        width: 100%;
+        flex: 2;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

@@ -39,9 +39,7 @@ Users should be able to:
 
 #### Mobile preview
 
-For the moment, I only did the desktop design.
-
-Mobile will come later...
+![my solution mobile preview](./my-screenshots/mobile-preview.jpg)
 
 ### Links
 
@@ -53,8 +51,7 @@ Mobile will come later...
 ### Built with
 
 - Tried to use semantic HTML5 markup
-- CSS
-- Flexbox
+- CSS (Flexbox)
 
 ### What I learned
 
