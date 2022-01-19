@@ -80,8 +80,10 @@ article p {
 .img-part {
     width: 50%;
     background-image: 
-        linear-gradient(rgba(162, 86, 208, 0.6), rgba(172, 96, 222, 0.6)), 
+        linear-gradient(rgba(162, 86, 208), 
+        rgba(172, 96, 222)), 
         url(../images/image-header-desktop.jpg);
+        background-blend-mode: multiply;
     border-radius: 0 0.5rem 0.5rem 0;
 }
 

@@ -41,6 +41,12 @@ I learned to insert a colored picture !
 
 It was a good exercise to practice and remember the step to make an integration. As I dont have a pro account, I had to guess to sizes, margins etc. So it took me time... But no matter, that was the aim of practicing!
 
+#### => **After submitting my solution**
+
+Thanks to the advices given by the community I learned :
+
+- CSS property "[background-blend-mode](https://developer.mozilla.org/fr/docs/Web/CSS/background-blend-mode)"
+
 ### Continued development
 
 As I said, I still have to code the mobile design to practice the responsive design.
