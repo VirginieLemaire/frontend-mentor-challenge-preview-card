@@ -46,6 +46,8 @@ It was a good exercise to practice and remember the step to make an integration.
 Thanks to the advices given by the community I learned :
 
 - CSS property "[background-blend-mode](https://developer.mozilla.org/fr/docs/Web/CSS/background-blend-mode)"
+- CSS [multi-column layout](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts)
+- better use of semantic HTML
 
 ### Continued development
 
