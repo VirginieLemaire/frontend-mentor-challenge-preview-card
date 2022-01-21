@@ -132,6 +132,7 @@ ul {
     text-align: center;
     flex-wrap: nowrap;
     height: fit-content;
+    flex-direction: column;
   }
   h1 {
     font-size: 170%;
