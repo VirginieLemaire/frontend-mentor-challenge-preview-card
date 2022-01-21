@@ -16,12 +16,12 @@ Users should be able to:
 
 #### Desktop preview
 
-![my solution desktop preview](./my-screenshots/desktop-preview.jpg)
+![my solution desktop preview](./my-screenshots/desktop-preview.png)
 
 
 #### Mobile preview
 
-![my solution mobile preview](./my-screenshots/mobile-preview.jpg)
+![my solution mobile preview](./my-screenshots/mobile-preview.png)
 
 ### Links
 

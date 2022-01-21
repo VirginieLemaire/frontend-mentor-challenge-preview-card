@@ -6,6 +6,7 @@ body {
   display: flex;
   font-size: 15px;
   height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 span {
@@ -14,12 +15,7 @@ span {
 
 h1,
 li {
-  font-family: "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
-}
-
-p {
-  font-family: "Lexend Deca", sans-serif;
 }
 
 /* CARD CONTAINER */
@@ -27,7 +23,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 1080px;
-  margin: 10rem auto 3rem;
+  margin: auto;
+  align-content: center;
 }
 /* LEFT SIDE */
 .text-part {
@@ -42,8 +39,7 @@ p {
   flex-direction: column;
 }
 
-.text-part .description,
-.stats {
+.text-part .description {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -53,21 +49,22 @@ p {
 
 h1 {
   font-size: xx-large;
+  font-family: "Inter", sans-serif;
 }
 
-.description {
+h2 {
   color: hsla(0, 0%, 100%, 0.75);
+  font-size: 95%;
 }
 
 .stats {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 ul {
   column-count: 3;
   list-style-type: none;
   font-weight: bold;
+  padding-left: initial;
 }
 .numbers {
   font-size: x-large;
@@ -149,6 +146,5 @@ ul {
   ul {
     column-count: 1;
     width: 100%;
-    padding-left: initial;
   }
 }
